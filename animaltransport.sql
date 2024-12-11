@@ -43,24 +43,23 @@ e-mail varchar (100) not null,
 
 );
 --1
-
 insert into prijevoz ( vrsta, polaziste, odrediste, datum, 
 vrsta_zivotinje, kolicina, nacin_placanja, 
 narucitelj, prijevoznik ) values
+
 ( 'Automobil', 'Osijek', 'Zagreb', '2024-11-12', 
 'Pas', '2', 'gotovina', 'Lea Bartos', 
 'Monaline Professional');
 
+--2
 insert into narucitelj ( vrsta, ime, prezime, adresa, 
 telefon, e-mail ) values
+
 ( 'Fizicka_osoba', 'Lea', 'Bartos', 'Osijek', '098765432', 'leabartos@gmail.com');
 
-
-
+--3
 insert into prijevoznik ( naziv, oib, broj_licence, adresa, 
 telefon, e-mail ) values
-
-
 
 ('Monaline_Professional', '123456789123', 'HR12345678', 'Kralja_Tomislava_7',
 'monaline@gmail.com');
