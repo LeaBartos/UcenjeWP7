@@ -1,24 +1,25 @@
 ﻿use master;
 go
-drop database if exists animal;
+
+drop database if exists animaltransport;
 go
-create database animal collate Croatian_CI_AS;
+create database animaltransport collate Croatian_CI_AS;
 go
-use animal;
+
+use animaltransport;
 go
 
 create table prijevozi (
 sifra int not null primary key identity(1,1),
 vrsta varchar (30) not null,
 polaziste varchar (70) not null,
-odrediste varchar(70) not null,
+odrediste varchar (70) not null,
 datum date not null,
 vrsta_zivotinje varchar (50) not null,
 kolicina int not null,
 nacin_placanja varchar (50) not null,
 narucitelj varchar (70) not null,
 prijevoznik varchar (70) not null
-
 );
 
 create table narucitelji (
@@ -29,7 +30,6 @@ prezime varchar(50) not null,
 adresa varchar (50) not null,
 telefon varchar (15) not null,
 e-mail varchar (100) not null,
-
 );
 
 create table prijevoznici (
@@ -40,18 +40,28 @@ broj_licence varchar (20) not null,
 adresa varchar (50) not null,
 telefon varchar (15) not null,
 e-mail varchar (100) not null,
-
 );
+
 --1
 insert into prijevozi ( vrsta, polaziste, odrediste, datum, 
 vrsta_zivotinje, kolicina, nacin_placanja, 
 narucitelj, prijevoznik ) values
 
 ( 'Automobil', 'Osijek', 'Zagreb', '2024-11-12', 
-'Pas', '2', 'gotovina', 'Lea Bartos', 
+'Pas', '2', 'Gotovina', 'Lea Bartos', 
 'Monaline Professional');
 
 --2
+insert into prijevozi ( vrsta, polaziste, odrediste, datum, 
+vrsta_zivotinje, kolicina, nacin_placanja, 
+narucitelj, prijevoznik ) values
+
+( 'Kombi', 'Osijek', 'Rijeka', '2024-12-12', 
+'Macka', '3', 'Online placanje karticom', 'Gordana Grnja', 
+'Demian Transport');
+
+
+--3
 insert into narucitelji ( vrsta, ime, prezime, adresa, 
 telefon, e-mail ) values
 
