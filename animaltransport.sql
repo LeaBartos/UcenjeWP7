@@ -7,7 +7,7 @@ go
 use animal;
 go
 
-create table prijevoz (
+create table prijevozi (
 sifra int not null primary key identity(1,1),
 vrsta varchar (30) not null,
 polaziste varchar (70) not null,
@@ -21,7 +21,7 @@ prijevoznik varchar (70) not null
 
 );
 
-create table narucitelj (
+create table narucitelji (
 sifra int not null primary key identity(1,1),
 vrsta varchar (30) not null,
 ime varchar (50) not null,
@@ -32,7 +32,7 @@ e-mail varchar (100) not null,
 
 );
 
-create table prijevoznik (
+create table prijevoznici (
 sifra int not null primary key identity(1,1),
 naziv varchar (50) not null,
 oib char (11) null,
@@ -43,7 +43,7 @@ e-mail varchar (100) not null,
 
 );
 --1
-insert into prijevoz ( vrsta, polaziste, odrediste, datum, 
+insert into prijevozi ( vrsta, polaziste, odrediste, datum, 
 vrsta_zivotinje, kolicina, nacin_placanja, 
 narucitelj, prijevoznik ) values
 
@@ -52,13 +52,13 @@ narucitelj, prijevoznik ) values
 'Monaline Professional');
 
 --2
-insert into narucitelj ( vrsta, ime, prezime, adresa, 
+insert into narucitelji ( vrsta, ime, prezime, adresa, 
 telefon, e-mail ) values
 
 ( 'Fizicka_osoba', 'Lea', 'Bartos', 'Osijek', '098765432', 'leabartos@gmail.com');
 
 --3
-insert into prijevoznik ( naziv, oib, broj_licence, adresa, 
+insert into prijevoznici ( naziv, oib, broj_licence, adresa, 
 telefon, e-mail ) values
 
 ('Monaline_Professional', '123456789123', 'HR12345678', 'Kralja_Tomislava_7',
