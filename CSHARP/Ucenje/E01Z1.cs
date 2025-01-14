@@ -22,16 +22,16 @@ namespace Ucenje
             Console.Write("Unesi svoje prezime: ");
             string prezime = Console.ReadLine();
 
-            Console.WriteLine("{0} {1}", prezime,ime);
-
-
-            
+            Console.WriteLine("{0} {1}", prezime, ime);
 
 
 
 
 
-            
+
+
+
+
 
 
 
@@ -39,7 +39,7 @@ namespace Ucenje
 
         }
 
-        
+
 
 
 

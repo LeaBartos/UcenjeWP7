@@ -13,24 +13,24 @@ namespace Ucenje
         public static void Izvedi()
         {
 
-           // Console.WriteLine("E02");
+            // Console.WriteLine("E02");
 
 
-           int cijeliBroj = 1;
-           bool logickaVrijednost = true;
-           float decimalniBroj = 4.5f;
-           double velikidecimalniBroj2 = 3.14;
-           decimal decimalnibroj2 = 3.4m;
-           char znak = '@';
-           string nizZnakova = "abcdef";
+            int cijeliBroj = 1;
+            bool logickaVrijednost = true;
+            float decimalniBroj = 4.5f;
+            double velikidecimalniBroj2 = 3.14;
+            decimal decimalnibroj2 = 3.4m;
+            char znak = '@';
+            string nizZnakova = "abcdef";
 
 
 
-            Console.WriteLine("Znak je broj {0}", (int) znak);
+            Console.WriteLine("Znak je broj {0}", (int)znak);
 
             cijeliBroj = int.MaxValue;
             Console.WriteLine(cijeliBroj);
-            Console.WriteLine(cijeliBroj+1);
+            Console.WriteLine(cijeliBroj + 1);
 
 
 

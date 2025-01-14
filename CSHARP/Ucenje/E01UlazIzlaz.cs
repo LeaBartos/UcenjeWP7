@@ -12,7 +12,7 @@ namespace Ucenje
 
 
 
-        public static void Izvedi ()
+        public static void Izvedi()
         {
             Console.WriteLine("Pozdrav svijetu!");
 
@@ -30,15 +30,15 @@ namespace Ucenje
             Console.Write("Unesi cijeli broj: ");
             i = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(" Unio si {0}",i );
+            Console.WriteLine(" Unio si {0}", i);
 
 
 
 
-            Console.Write( "Unesi ime grada: ");
+            Console.Write("Unesi ime grada: ");
 
             string grad = Console.ReadLine();
-             
+
             Console.WriteLine("Unio si" + grad);
 
 
@@ -54,7 +54,7 @@ namespace Ucenje
 
         }
 
-    
+
 
 
 

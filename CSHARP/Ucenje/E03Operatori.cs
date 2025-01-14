@@ -20,13 +20,13 @@ namespace Ucenje
             //Console.WriteLine("E03");
 
             int i, j;
-            i=2; j=3;
+            i = 2; j = 3;
             i += j;
 
 
 
-            Console.WriteLine(i/j);
-            Console.WriteLine(i/(float)j);
+            Console.WriteLine(i / j);
+            Console.WriteLine(i / (float)j);
             Console.WriteLine(5 % 2);
 
             i = 1;
@@ -43,7 +43,7 @@ namespace Ucenje
             Console.WriteLine(++i);
 
             int x = 1, y = 0;
-                x = x + --y;
+            x = x + --y;
             y += ++x;
             Console.WriteLine(++x - y--);
 
@@ -57,22 +57,6 @@ namespace Ucenje
 
 
 
-      
-
-
-   
-
-
-   
-
-    
-
-
-
-
-  
-
-   
 
 
 
@@ -84,9 +68,25 @@ namespace Ucenje
 
 
 
-   
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
