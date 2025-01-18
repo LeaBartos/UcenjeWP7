@@ -2,7 +2,14 @@
 
 using Ucenje;
 
-E12Z1.Izvedi();
+
+E13Z2.Izvedi();
+
+//E13TryCatch.Izvedi();
+
+//E12Z1.Izvedi();
+
+//E12TryCatch.Izvedi();
 
 //E11ForEach.Izvedi();
 
@@ -24,6 +31,7 @@ E12Z1.Izvedi();
 
 //E01UlazIzlaz.Izvedi();
 
-
 //Console.WriteLine("Hello, World!");
+
+
 

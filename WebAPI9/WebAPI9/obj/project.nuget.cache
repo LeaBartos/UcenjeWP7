@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jALQe+DlADk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lotal\\OneDrive\\Documents\\GitHub\\UcenjeWP7\\WebAPI9\\WebAPI9\\WebAPI9.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lotal\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\lotal\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
