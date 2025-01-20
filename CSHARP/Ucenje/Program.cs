@@ -1,23 +1,37 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+
+
 using Ucenje;
 
+E14Metode.Izvedi();
 
-E13Z2.Izvedi();
+
+//E13Z2.Izvedi();
 
 //E13TryCatch.Izvedi();
 
 //E12Z1.Izvedi();
 
-//E12TryCatch.Izvedi();
+//E12ForEach.Izvedi();
 
-//E11ForEach.Izvedi();
+//E11DoWhilePetlja.Izvedi();
 
-//E10DoWhilePetlja.Izvedi();
-
-//E09WhilePetlja.Izvedi();
+//E10WhilePetlja.Izvedi();
 
 //E08ForPetlja.Izvedi();
+
+//E07SubotaZ6.Izvedi();
+
+//E07SubotaZ5.Izvedi();
+
+//E07SubotaZ4.Izvedi();
+
+//E07SubotaZ3.Izvedi();
+
+//E07SubotaZ2.Izvedi();
+
+//E07SubotaZ1.Izvedi();
 
 //E06Nizovi.Izvedi();
 
@@ -29,9 +43,8 @@ E13Z2.Izvedi();
 
 //E01Z1.Izvedi();
 
+
 //E01UlazIzlaz.Izvedi();
 
+
 //Console.WriteLine("Hello, World!");
-
-
-

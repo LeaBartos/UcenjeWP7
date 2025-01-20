@@ -37,14 +37,14 @@ namespace Ucenje
 
             // kao i kod if ne moraju biti {} asli se onda petlja odnosi samo na prvu sljedeću liniju
 
-            for (int i = 0; i < 10; i++)
+            for(int i = 0;i < 10;i++)
             {
-                Console.WriteLine("Ispisujem {0}. broj.", i + 1);
+                Console.WriteLine("Ispisujem {0}. broj.", i+1);
             }
 
             // zbroj prvih 100 brojeva
             int suma = 0;
-            for (int i = 1; i <= 10; i++)
+            for(int i = 1; i <= 10; i++)
             {
                 suma += i;
                 // ako želimo praziti proces, ispisujemo unutar petlja, prije }
@@ -56,7 +56,7 @@ namespace Ucenje
 
 
             // petlja može ići i "unazad"
-            for (int i = 10; i > 0; i--)
+            for(int i = 10; i > 0; i--)
             {
                 Console.WriteLine(i);
             }
@@ -64,7 +64,7 @@ namespace Ucenje
             Console.WriteLine("************************");
 
             // petlja ne mora ići za korak 1
-            for (int i = 0; i < 10; i += 2)
+            for(int i = 0; i < 10; i += 2)
             {
                 Console.WriteLine(i);
             }
@@ -74,7 +74,7 @@ namespace Ucenje
             int odKuda = 2, doKuda = 20, uvecanje = 3; // simulacija da je unio korisnik
 
             // ono čemu težimo u kodu jest kod bez konstanti
-            for (int i = odKuda; i <= doKuda; i += uvecanje)
+            for(int i = odKuda; i <= doKuda; i += uvecanje)
             {
                 Console.WriteLine(i);
             }
@@ -88,8 +88,8 @@ namespace Ucenje
 
             Console.WriteLine("************************");
             // u novim linijama ispiši sve elemente niza
-
-            for (int i = 0; i < niz.Length; i++)
+            
+            for(int i = 0; i < niz.Length; i++)
             {
                 Console.WriteLine(niz[i]); // ovo je slovo i, ne broj 1
             }
@@ -99,13 +99,13 @@ namespace Ucenje
 
 
             // for petlja se može gnijezditi
-            for (int i = 0; i < redaka; i++)
+            for(int i = 0; i < redaka; i++)
             {
 
 
-                for (int j = 0; j < stupaca; j++)
+                for(int j = 0; j < stupaca; j++)
                 {
-                    Console.Write("{0,4}", (i + 1) * (j + 1));
+                    Console.Write("{0,4}", (i+1) * (j+1));
                 }
 
                 Console.WriteLine();
@@ -115,22 +115,22 @@ namespace Ucenje
 
             // petlju se može preskočiti - nastaviti
 
-            for (int i = 0; i < 10; i++)
+            for(int i = 0;i < 10; i++)
             {
                 if (i == 4) // preskoči 5. mjesto
                 {
                     continue; // vraća na početak petlja
                 }
 
-                Console.WriteLine("Rezerviraj {0}. mjesto", i + 1);
+                Console.WriteLine("Rezerviraj {0}. mjesto", i+1);
 
             }
 
 
             // petlja se može "nasilno" prekinuti
-            for (int i = 0; i < 10; i++) //prirodni kraj je i=10
+            for(int i=0; i < 10; i++) //prirodni kraj je i=10
             {
-                if (i == 5)
+                if(i== 5)
                 {
                     break; // nasilno prekidam
                 }
@@ -147,10 +147,10 @@ namespace Ucenje
             int brojZaProvjeru = 157;
             int brojacIteracija = 1;
             bool prim = true; // moja hipoteza je da taj broj je PRIM broj
-            for (int i = 2; i < brojZaProvjeru / 2; i++)
+            for(int i = 2;i<brojZaProvjeru/2; i++)
             {
-                Console.WriteLine("{0}%{1}=={2} ({3})", brojZaProvjeru, i, brojZaProvjeru % i, brojacIteracija++);
-                if (brojZaProvjeru % i == 0)
+                Console.WriteLine("{0}%{1}=={2} ({3})", brojZaProvjeru, i, brojZaProvjeru%i, brojacIteracija++);
+                if(brojZaProvjeru%i== 0)
                 {
                     // TO NIJE PRIM BROJ
                     prim = false;
@@ -168,13 +168,13 @@ namespace Ucenje
 
 
             // beskonačna petlja
-            for (int i = 0; i > -1; i++) // OVO NIJE BESKONAČNA PETLJA zbog brojevne kružnice
+            for(int i = 0; i > -1; i++) // OVO NIJE BESKONAČNA PETLJA zbog brojevne kružnice
             {
                 break;
             }
 
 
-            for (; ; ) // ovo je sintaksa for beskonačne petlje
+            for(; ; ) // ovo je sintaksa for beskonačne petlje
             {
                 Console.WriteLine("{0} {0} {0} {0} {0} {0} {0} {0} {0} {0} {0}", new Random().Next());
                 Thread.Sleep(100);

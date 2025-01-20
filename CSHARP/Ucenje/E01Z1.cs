@@ -11,30 +11,18 @@ namespace Ucenje
 
         public static void Izvedi()
         {
+            //Console.WriteLine("E01Z1");
 
+            // Program od korisnika unosi zasebno ime i prezime
+            // Program ispisuje prezime i ime
 
-            //Console.WriteLine("EO1Z1");
-
-            Console.Write("Unesi svoje ime:");
+            Console.Write("Unesi svoje ime: ");
             string ime = Console.ReadLine();
-
 
             Console.Write("Unesi svoje prezime: ");
             string prezime = Console.ReadLine();
 
-            Console.WriteLine("{0} {1}", prezime, ime);
-
-
-
-
-
-
-
-
-
-
-
-
+            Console.WriteLine("{0} {1}", prezime,ime);
 
 
         }

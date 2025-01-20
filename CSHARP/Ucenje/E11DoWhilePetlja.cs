@@ -13,7 +13,7 @@ namespace Ucenje
             //Console.WriteLine("E11");
 
             // do while osigurava izvođenje minimalno jedne iteracije
-
+            
             do
             {
                 Console.WriteLine("Izvede se jednom");

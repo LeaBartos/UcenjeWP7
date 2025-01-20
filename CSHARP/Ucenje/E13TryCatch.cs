@@ -12,7 +12,7 @@ namespace Ucenje
         {
             Console.WriteLine("E13");
 
-
+            
 
             int b = 0;
 
@@ -42,9 +42,9 @@ namespace Ucenje
             int godine = 0;
             string unos;
             int brojZnak;
-            for (; ; )
+            for(; ; )
             {
-            pocetak: // labela
+                pocetak: // labela
                 Console.Write("Unesi svoje godine: ");
                 unos = Console.ReadLine();
                 if (unos.Trim() == "")
@@ -63,22 +63,22 @@ namespace Ucenje
                     }
                     break;
                 }
-                catch
+                catch 
                 {
                     // unos 12O
-                    foreach (char znak in unos)
+                    foreach(char znak in unos)
                     {
                         brojZnak = znak;
-                        if (brojZnak < 48 || brojZnak > 57)
+                        if(brojZnak<48 || brojZnak > 57)
                         {
                             Console.WriteLine("Uneseni znak {0} nije broj, " +
-                                "on je dio abecede ...{1}, {2}, {3}...", znak,
-                                (char)(brojZnak - 1), znak, (char)(brojZnak + 1));
+                                "on je dio abecede ...{1}, {2}, {3}...", znak, 
+                                (char)(brojZnak-1),znak,(char)(brojZnak+1));
                             goto pocetak;
                         }
                     }
                     Console.WriteLine("Nisi unio broj");
-
+                    
                 }
             }
 

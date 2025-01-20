@@ -18,7 +18,7 @@ namespace Ucenje
             string grad = Console.ReadLine();
 
             // svako slovo grada ispiši jedno ispod drugog
-            for (int i = 0; i < grad.Length; i++)
+            for(int i = 0; i < grad.Length; i++)
             {
                 Console.WriteLine(grad[i]);
             }
@@ -26,30 +26,30 @@ namespace Ucenje
             Console.WriteLine("**************");
             // u slučajevima kada idemo od početka do kraja (većina puta)
 
-            foreach (char znak in grad)
+            foreach(char znak in grad)
             {
                 Console.WriteLine(znak);
             }
 
             Console.WriteLine("**************");
 
-            for (int i = grad.Length - 1; i >= 0; i--)
+            for(int i=grad.Length-1;i>=0; i--)
             {
                 Console.WriteLine(grad[i]);
             }
 
             Console.WriteLine("*********************");
 
-
+            
             for (int i = 0; i < grad.Length; i++)
             {
-                Console.WriteLine(grad[^(i + 1)]);
+                Console.WriteLine(grad[^(i+1)]);
             }
 
 
             int[] brojevi = { 1, 2, 2, 3, 3, 3, 3, 3 };
 
-            foreach (int i in brojevi)
+            foreach(int i in brojevi)
             {
                 Console.WriteLine(i);
             }

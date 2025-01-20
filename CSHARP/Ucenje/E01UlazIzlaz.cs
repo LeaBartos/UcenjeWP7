@@ -13,8 +13,8 @@ namespace Ucenje
         {
 
 
-            
-      
+            // ovdje pišemo kod
+            // Izlaz
             Console.WriteLine("Pozdrav svijetu!");
 
             Console.Write("Ovo je u liniji ");
@@ -29,53 +29,28 @@ namespace Ucenje
 
 
 
-            
+            // Ulaz
             int i;
             Console.Write("Unesi cijeli broj: ");
             i = int.Parse(Console.ReadLine());
 
-            
-            Console.WriteLine("Unio si {0}", i);
+            // izlaz
+            Console.WriteLine("Unio si {0}",i);
 
 
 
-            
+            // Ulaz
             Console.Write("Unesi ime grada: ");
             string grad = Console.ReadLine();
 
-            
+            // izlaz
             Console.WriteLine("Unio si " + grad);
 
 
-
-
-        } 
-
+        } // kraj metoda
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        }
-
-
-
-
-
-
-    }
-}
+    }// kraj klasa
+} // kraj namespace

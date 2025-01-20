@@ -25,15 +25,15 @@ namespace Ucenje
             while (i++ < 10)
             {
                 Console.WriteLine(i);
-
+            
             }
 
             Console.WriteLine("*****************");
             // continue radi na isti način
             int j = 0;
-            while (i >= 10 && j++ < 10) // može još i || te !
+            while(i>=10 && j++ < 10) // može još i || te !
             {
-                Console.WriteLine(i * j);
+                Console.WriteLine(i*j);
             }
 
             Console.WriteLine("---------------------------------");
@@ -43,9 +43,9 @@ namespace Ucenje
             int doBroja = 0;
 
 
-            for (int x = odBroja; x < doBroja; x++)
-            {
-                Console.WriteLine(x);
+            for(int x=odBroja; x<doBroja; x++) 
+            { 
+                Console.WriteLine(x); 
             }
 
             bool uvjet = false;

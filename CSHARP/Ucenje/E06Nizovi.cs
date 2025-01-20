@@ -45,11 +45,11 @@ namespace Ucenje
 
 
             // ispišite broj 6
-            Console.WriteLine(tablica[1, 2]);
+            Console.WriteLine(tablica[1,2]);
 
 
             // trodimenzionalni niz - kocka
-            int[,,] kocka = new int[10, 10, 10];
+            int[,,] kocka = new int [10,10,10];
 
             kocka[5, 5, 5] = 27;
 
@@ -72,7 +72,7 @@ namespace Ucenje
             char znak = 'A';
 
             // ispišite zadnji znak
-            Console.WriteLine(grad[grad.Length - 1]);
+            Console.WriteLine(grad[grad.Length-1]);
             Console.WriteLine(grad.Length);
 
 
@@ -80,4 +80,4 @@ namespace Ucenje
 
 
     }
-}
+    }
