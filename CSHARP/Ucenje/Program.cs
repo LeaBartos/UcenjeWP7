@@ -4,8 +4,9 @@
 
 using Ucenje;
 
-E14Metode.Izvedi();
+E15Rekurzija.Izvedi();
 
+//E14Metode.Izvedi();
 
 //E13Z2.Izvedi();
 
