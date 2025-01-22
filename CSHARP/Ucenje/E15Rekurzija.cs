@@ -31,7 +31,7 @@ namespace Ucenje
                 return 1;
             }
             return broj + Zbroji(broj - 1); // u rekurzijij operacije se odrađuju u povratku
-
+        
         }
 
     }
