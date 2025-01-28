@@ -4,11 +4,16 @@
 
 using Ucenje;
 
-E14Z3.Izvedi();
+new Ucenje.E18NasljedivanjePolimorfizam.Program("E18 drugi konstruktor");
 
-//E14Z2.Izvedi();
+// kreiranje objekte/instance klase Program
+//new Ucenje.E17KlasaObjekt.Program(); // poziva se konstruktor klase Program (5. vrsta metode)
 
-//E14Z1.Izvedi();
+//E16Vjezbanje.Izvedi();
+
+//E15Rekurzija.Izvedi();
+
+//E14Z3.Izvedi();
 
 //E14Metode.Izvedi();
 

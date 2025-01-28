@@ -23,14 +23,14 @@ namespace Ucenje
 
             // poziv metode
             Tip1();
-
+           
             Tip2(5);
 
             Tip2(3, "Osijek");
 
             Console.WriteLine(Tip3());
             // svi prosti brojevi od 1 do 100
-            for (int i = 1; i < 100; i++)
+            for(int i = 1; i < 100; i++)
             {
                 if (Tip4(i))
                 {
@@ -38,7 +38,7 @@ namespace Ucenje
                 }
             }
 
-
+            
 
         }
 
@@ -66,14 +66,14 @@ namespace Ucenje
         private static void Tip2(int i)
         {
             Console.WriteLine("Primio sam broj {0}", i);
-            Console.WriteLine("Uvećan za 10 on iznosi {0}", i + 10);
-        }
+            Console.WriteLine("Uvećan za 10 on iznosi {0}", i+10);
+        } 
 
         // potpis metode: naziv metode + lista parametara koje prima
         protected static void Tip2(int i, string s) // method overloading
         {
             Console.WriteLine(s);
-            Console.WriteLine("Primio sam {0}", i);
+            Console.WriteLine("Primio sam {0}",i);
         }
 
 
@@ -92,8 +92,8 @@ namespace Ucenje
         /// <returns>true ako je prim, false ako nije</returns>
         public static bool Tip4(int broj)
         {
-
-            for (int i = 2; i < broj; i++)
+         
+            for(int i = 2; i < broj; i++)
             {
                 if (broj % i == 0)
                 {
@@ -116,7 +116,7 @@ namespace Ucenje
                 {
                     return int.Parse(Console.ReadLine());
                 }
-                catch
+                catch 
                 {
                     Console.WriteLine("Niste unijeli broj");
                 }
@@ -127,30 +127,35 @@ namespace Ucenje
         public static int UcitajBroj(string poruka, int min, int max)
         {
             int i = 0;
-            for (; ; )
+            for(; ; )
             {
                 Console.Write(poruka + ": ");
                 try
                 {
                     i = int.Parse(Console.ReadLine());
-                    if (i < min || i > max)
+                    if(i<min || i > max)
                     {
-                        Console.WriteLine("Broj nije u danom rasponu {0} i {1}", min, max);
+                        Console.WriteLine("Broj nije u danom rasponu {0} i {1}",min,max);
                         continue;
                     }
                     return i;
                 }
-                catch
+                catch 
                 {
                     Console.WriteLine("Nisi unio broj!");
-
+                   
                 }
             }
         }
 
 
 
-
+        /// <summary>
+        /// Unosi string
+        /// </summary>
+        /// <param name="poruka">Poruka koja se ispijuje korisniku</param>
+        /// <param name="greska">Poruka greške u slučaju da nije napravio unos</param>
+        /// <returns>String koji je unio korisnik</returns>
         public static string UcitajString(string poruka, string greska)
         {
             string s;

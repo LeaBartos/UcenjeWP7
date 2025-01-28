@@ -28,7 +28,7 @@ namespace Ucenje
 
 
             // one liner
-            Console.WriteLine((E14Metode.UcitajBroj("Unesi broj svojih godina", 1, 120) < 18 ? "Maloljetna" : "Punoljetna") + " osoba");
+            Console.WriteLine((E14Metode.UcitajBroj("Unesi broj svojih godina", 1, 120)<18 ? "Maloljetna" : "Punoljetna") + " osoba");
 
         }
 
