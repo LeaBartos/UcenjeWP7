@@ -23,11 +23,8 @@ namespace Ucenje
         {
             Console.WriteLine();
             Console.WriteLine("1. Za uneseni broj provjeri da li je parni ili ne?");
-<<<<<<< HEAD
             Console.WriteLine("2. Riječ unazad");
             Console.WriteLine("3. Provjera sigurnosti lozinke");
-=======
->>>>>>> d309cc2ba86f8f9e68d055babd9d74753ccfc27b
             Console.WriteLine("0. Izlaz iz aplikacije");
             OdabirOpcijeIzbornika();
         }
@@ -40,7 +37,6 @@ namespace Ucenje
                     ParnostBroja();
                     Izbornik();
                     break;
-<<<<<<< HEAD
                 case 2:
                     RijecUnazad();
                     Izbornik();
@@ -132,18 +128,6 @@ namespace Ucenje
         private static void ParnostBroja()
         {
             NaslovPrograma("Program za uneseni broj ispisuje da li je paran ili ne.");
-=======
-                case 0:
-                    break;
-            }
-        }
-
-        private static void ParnostBroja()
-        {
-            Console.WriteLine("-------------------------------------------------------------");
-            Console.WriteLine("-- Program za uneseni broj ispisuje da li je paran ili ne. --");
-            Console.WriteLine("-------------------------------------------------------------");
->>>>>>> d309cc2ba86f8f9e68d055babd9d74753ccfc27b
             int broj = E14Metode.UcitajBroj("Unesi cijeli broj za provjeru", 1, 100);
             if (broj % 2 == 0)
             {
@@ -153,11 +137,7 @@ namespace Ucenje
             {
                 Console.WriteLine("Broj {0} je neparan", broj);
             }
-<<<<<<< HEAD
             Console.WriteLine("-- Kraj programa provjere parnosti broja --"); // i ovo bi se dalo izvući u metodu
-=======
-            Console.WriteLine("-- Kraj programa provjere parnosti broja --");
->>>>>>> d309cc2ba86f8f9e68d055babd9d74753ccfc27b
         }
     }
 }
